@@ -1,0 +1,185 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Muli", sans-serif;
+}
+body {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+.row {
+  margin: 0;
+}
+.main_menu {
+  width: 100%;
+  background-color: #1e272e;
+}
+.navbar-brand {
+  font-size: 1.9rem !important;
+  color: #fff !important;
+}
+.navbar a {
+  font-size: 1.3rem;
+  text-transform: capitalize;
+}
+.navbar a:hover {
+  color: #3498db !important;
+}
+.menu_active {
+  font-weight: bold;
+  border-bottom: 1px solid #565387;
+}
+.main_header {
+  width: 100%;
+  height: 70vh;
+}
+.main_content {
+  width: 100%;
+  height: 15vh;
+}
+#header {
+  width: 100%;
+  height: 70vh;
+  margin-top: 70px;
+}
+#header h1 {
+  margin: 0 0 10px 0;
+  font-size: 28px;
+  font-weight: 530;
+  color: black;
+}
+#header .brand-name {
+  color: #3498db;
+}
+#header h2 {
+  color: #484848;
+  font-size: 20px;
+}
+#header .btn-get-started {
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 10px 30px;
+  border-radius: 50px;
+  transition: 0.5s;
+  color: #3498db;
+  border: 2px solid #3498db;
+  text-decoration: none;
+}
+#header .btn-get-started:hover {
+  background: #3498db;
+  color: white;
+}
+#header-img {
+  text-align: right;
+}
+.temp_form {
+  width: 60%;
+  position: relative;
+  margin: 3rem auto 1rem;
+}
+.temp_form input[type="text"] {
+  width: 100%;
+  padding: 1rem 5rem 1rem 1rem;
+  background: #1e202b;
+  color: #fff;
+  outline: none;
+  border: none;
+  font-size: 1rem;
+  border-radius: 3rem;
+}
+::placeholder {
+  color: #bfc1c8;
+}
+.temp_form input[type="submit"] {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  bottom: 5px;
+  border: none;
+  background: #009ad8;
+  padding: 0 2rem;
+  border-radius: 3rem;
+  color: #fff;
+  font-size: 1rem;
+}
+.temp_form input[type="submit"]:hover {
+  color: #009ad8;
+  background-color: #fff;
+}
+.tempInformation {
+  width: 30rem;
+  margin: auto;
+  max-height: 20rem;
+  background-color: #323544;
+  border-radius: 1rem;
+  /* padding: 1rem; */
+  font-family: "Roboto", sans-serif;
+}
+.top_layer {
+  width: 100%;
+  height: 10%;
+  background-color: #2d303d;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 1rem;
+}
+.top_layer p {
+  color: #fff;
+  font-weight: 300;
+  padding: 1rem;
+  font-size: 1.4rem;
+}
+.main_layer {
+  width: 100%;
+  height: 30%;
+  display: flex;
+  flex-direction: column;
+  padding: 2rem;
+}
+.main_layer #city_name {
+  padding: 0.2rem 0;
+  color: #bfc1c8;
+  font-weight: 300;
+  font-size: 2rem;
+}
+.main_layer .middle_layer {
+  display: flex;
+  justify-content: space-around;
+  color: #fff;
+}
+.main_layer .middle_layer p,
+.main_layer .middle_layer .fa {
+  font-size: 4rem;
+  font-weight: 300;
+}
+.fa {
+  color: #009ad8;
+}
+sup {
+  font-size: 2rem;
+  margin-top: -3rem;
+}
+.data_hide {
+  visibility: hidden;
+  transition: all 0.3s linear;
+}
+footer {
+  width: 100%;
+  background-color: #1e272e;
+  margin-top: auto;
+}
+footer p {
+  margin: 0;
+  text-align: center;
+  color: #fff;
+  line-height: 3.5rem;
+  font-size: 1.4rem;
+}
